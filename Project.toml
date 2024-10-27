@@ -1,0 +1,5 @@
+name = "FeedbackControlTheory"
+uuid = "6541383a-74dd-40fe-86d1-596ae0345580"
+
+[deps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
