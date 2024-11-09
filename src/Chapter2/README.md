@@ -6,7 +6,7 @@ When playing around with norms of signals, we need to be precise about what sort
 
 $$\| u(t) \|_p = \left(\int_{-\infty}^{\infty}\vert u(t)\vert^p\right)^{\frac{1}{p}}$$
 
-![plot](./src/Chapter2/assets/Norms.png)
+![plot](./assets/Norms.png)
 
 
 **STEPS**: 
