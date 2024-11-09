@@ -1,7 +1,3 @@
-<script type="text/javascript" id="MathJax-script" async
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-
 # Chapter 2 - Norms for Signals and Systems
 As mentioned, we which to describe the performance of the control system in terms of the size of certain signals. 
 
