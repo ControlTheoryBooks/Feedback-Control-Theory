@@ -2,9 +2,11 @@
 As mentioned, we which to describe the performance of the control system in terms of the size of certain signals. 
 
 ## Norms for signals
-When playing around with norms of signals, we need to be precise about what sorts of signals we are interested in. For many control systems we talk about piecewise continous signals that maps from an interval $$(-\infty, \infty)$$ to $$\mathbb{R}$$. This would be a time-series signal. We then define the p-norm:
+When playing around with norms of signals, we need to be precise about what sorts of signals we are interested in. For many control systems we talk about piecewise continous signals that maps from an interval ```math (-\infty, \infty)``` to ```math \mathbb{R}```. This would be a time-series signal. We then define the p-norm:
 
-$$|| u(t) ||_p = \left(\int_{-\infty}^{\infty}\vert u(t)\vert^p\right)^{\frac{1}{p}}$$
+```math
+|| u(t) ||_p = \left(\int_{-\infty}^{\infty}\vert u(t)\vert^p\right)^{\frac{1}{p}}
+```
 
 ![plot](./assets/Norms.png)
 
