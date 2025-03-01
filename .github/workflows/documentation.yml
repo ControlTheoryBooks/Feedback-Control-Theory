@@ -1,4 +1,4 @@
-name: Documentation
+name: Deploy
 
 on:
   push:
@@ -6,3 +6,10 @@ on:
       - master
     tags: '*'
   pull_request:
+
+jobs:
+  do-nothing:
+    runs-on: ubuntu-latest  
+    steps:
+      - name: Nothing to do
+        run: echo "This action does nothing"
