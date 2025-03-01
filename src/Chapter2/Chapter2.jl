@@ -17,7 +17,7 @@ TBW
 function Chap2_norm_of_signal(
 	; 
 	f::Function = x -> x^2, 
-	N::Int64 = 20, 
+	N::Int64 = 25, 
 	interval::Tuple{Float64, Float64} = (-5.0, 5.0), 
 	func_string::String = "x^2", 
 	p_range::Int64=20
